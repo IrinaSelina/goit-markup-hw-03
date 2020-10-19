@@ -18,32 +18,36 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
         <!-- логотип, вкладки, контакты -->
-        <a href="./index.html" class="logo"
+        <a href="./index.html" class="logo header"
           >Web<span class="logo-accent">Studio</span></a
         >
         <ul class="site-nav">
-          <li><a href="./" class="primery-nav">Студия</a></li>
+          <li><a href="./" class="primery-nav header">Студия</a></li>
           <li>
-            <a href="./portfolio.html" class="button-secondary">Портфолио</a>
+            <a href="./portfolio.html" class="button-secondary header"
+              >Портфолио</a
+            >
           </li>
-          <li><a href="" class="button-secondary">Контакты</a></li>
+          <li><a href="" class="button-secondary header">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contacts">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="header"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+380991111111" class="button-secondary"
+          <a href="tel:+380991111111" class="button-secondary header"
             >+38 099 111 11 11</a
           >
         </li>
@@ -61,8 +65,8 @@
       </section>
       <!-- хотят обратить внимание -->
       <section>
-        <h2>О нас</h2>
-        <ul>
+        <!-- <h2>О нас</h2> -->
+        <ul class="main-about">
           <li>
             <h3 class="advantages">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
             <p class="notes">
@@ -95,9 +99,9 @@
         </ul>
       </section>
       <!-- примеры проектов -->
-      <section>
+      <section class="adout-us-img">
         <h2 class="about-us">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="images">
           <li>
             <img src="./img/box1.png" alt="box1" width="370" />
           </li>
@@ -110,25 +114,25 @@
         </ul>
       </section>
       <!-- наша команда -->
-      <section>
+      <section class="our-teams">
         <h2 class="command">Наша команда</h2>
         <ul>
-          <li>
+          <li class="teams">
             <img src="./img/card1.png" alt="card1" width="270" />
             <h3 class="name">Игорь Демьяненко</h3>
             <p class="position">Product Designer</p>
           </li>
-          <li>
+          <li class="teams">
             <img src="./img/card2.png" alt="card2" width="270" />
             <h3 class="name">Ольга Репина</h3>
             <p class="position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="teams">
             <img src="./img/card3.png" alt="card3" width="270" />
             <h3 class="name">Николай Тарасов</h3>
             <p class="position">Marketing</p>
           </li>
-          <li>
+          <li class="teams">
             <img src="./img/card4.png" alt="card4" width="270" />
             <h3 class="name">Михаил Ермаков</h3>
             <p class="position">UI Designer</p>
@@ -142,7 +146,7 @@
         >Web<span class="logo-ac-footer">Studio</span></a
       >
       <address>
-        <ul>
+        <ul class="adresss-footer">
           <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
           <li>
             <a href="mailto:info@devstudio.com" class="mail-tel"
