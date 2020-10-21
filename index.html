@@ -25,33 +25,35 @@
   </head>
   <body>
     <header>
-      <nav>
-        <!-- логотип, вкладки, контакты -->
-        <a href="./index.html" class="logo header"
-          >Web<span class="logo-accent">Studio</span></a
-        >
-        <ul class="site-nav">
-          <li><a href="./" class="primery-nav header">Студия</a></li>
+      <div class="header">
+        <nav>
+          <!-- логотип, вкладки, контакты -->
+          <a href="./index.html" class="logo"
+            >Web<span class="logo-accent">Studio</span></a
+          >
+          <ul class="site-nav">
+            <li><a href="./" class="primery-nav">Студия</a></li>
+            <li>
+              <a href="./portfolio.html" class="button-secondary">Портфолио</a>
+            </li>
+            <li><a href="" class="button-secondary">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts">
           <li>
-            <a href="./portfolio.html" class="button-secondary header"
-              >Портфолио</a
+            <a href="mailto:info@devstudio.com" class="contacts-mail-tel"
+              >info@devstudio.com</a
             >
           </li>
-          <li><a href="" class="button-secondary header">Контакты</a></li>
+          <li>
+            <a
+              href="tel:+380991111111"
+              class="button-secondary contacts-mail-tel"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="contacts">
-        <li>
-          <a href="mailto:info@devstudio.com" class="header"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380991111111" class="button-secondary header"
-            >+38 099 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- главная секция -->
@@ -64,7 +66,7 @@
         <a href="" class="button-primery-st">Заказать услугу</a>
       </section>
       <!-- хотят обратить внимание -->
-      <section>
+      <section class="container-about">
         <!-- <h2>О нас</h2> -->
         <ul class="main-about">
           <li>
@@ -90,7 +92,7 @@
             </p>
           </li>
           <li>
-            <h3 class="advantages">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+            <h3 class="">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
             <p class="notes">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
