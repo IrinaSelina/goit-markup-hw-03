@@ -30,7 +30,6 @@ header {
 .header {
   display: inline-flex;
   justify-content: flex-end;
-  /* background-color: yellow; */
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -111,7 +110,6 @@ main {
 }
 .logo-accent {
   color: var(--titel-text-color);
-  /* width: auto; */
 }
 .button {
   font-style: normal;
@@ -124,7 +122,6 @@ main {
   color: var(--primary-text-color);
 }
 .button-primery-st {
-  /* display: inline; */
   color: #ffffff;
   background-color: var(--accent-text-color);
   font-style: normal;
@@ -135,9 +132,6 @@ main {
   padding: 10px 32px;
   margin-left: auto;
   margin-right: auto;
-
-  /* padding: 10px 32px;
-  margin-top: 0px; */
 }
 .button-primery-pf {
   color: #ffffff;
@@ -153,7 +147,6 @@ main {
   font-size: 44px;
   line-height: 1.36em;
   text-align: center;
-  /* margin: 30px; */
 }
 .advantages {
   color: var(--titel-text-color);
@@ -201,10 +194,7 @@ main {
 .main-about li {
   display: inline-block;
   justify-content: space-between;
-
-  /* height: 100px; */
   width: 270px;
-  /* margin-right: 30px; */
 }
 
 .position {
@@ -214,7 +204,6 @@ main {
   font-size: 14px;
   line-height: 1.19em;
   font-style: normal;
-  /* margin-bottom: 30px; */
 }
 .projects {
   color: var(--titel-text-color);
@@ -266,9 +255,7 @@ ul {
   font-size: 36px;
   line-height: 1.17em;
   text-align: center;
-  /* margin-top: 0px; */
   margin-bottom: 50px;
-  /* padding-bottom: 30px; */
 }
 
 .footer {
@@ -349,36 +336,17 @@ footer {
   align-items: center;
   margin-top: 94px;
 }
-/*  header {
-  height: 80px;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: automain-section
-} */
-
-/* .main-about li {
-  display: inline-block;
-  height: 100px;
-  width: 270px;
-  margin-right: 30px;
-} */
 .our-teams {
   background-color: #f5f4fa;
   text-align: center;
   padding: 0px;
-  /* height: 648px; */
-  /* width: 1600px; */
-  /* margin: 94px auto 0px; */
   padding-top: 94px;
-  /* padding-bottom: 94px; */
   padding-left: 0px;
 }
 .teams {
   display: inline-block;
   background-color: var(--with);
   padding-bottom: 94px;
-  /* width: 270px; */
-  /* padding: 0px; */
 }
 .teams img {
   margin-bottom: 30px;
@@ -391,7 +359,6 @@ footer {
   margin-bottom: 94px;
   color: #ffffff;
   background-color: #2f303a;
-  /* width: 100%; */
   justify-content: center;
 }
 
@@ -399,9 +366,6 @@ footer {
   text-align: center;
   margin: 0px;
   margin-bottom: 94px;
-
-  /* /* width: 1170px; */
-  /* height: 368px; */
 }
 .images {
   width: auto;
@@ -419,6 +383,3 @@ footer {
   padding: 0px;
   justify-content: space-between;
 }
-/* .adout-us-img h2 {
-  margin-bottom: 50px;
-} */
