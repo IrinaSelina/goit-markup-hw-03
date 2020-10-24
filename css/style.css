@@ -130,6 +130,14 @@ main {
 .button-secondary {
   color: var(--primary-text-color);
 }
+
+.button-primery-pf {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.63em;
+}
 .button-primery-st {
   color: #ffffff;
   background-color: var(--accent-text-color);
@@ -142,14 +150,6 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-.button-primery-pf {
-  color: #ffffff;
-  background-color: var(--accent-text-color);
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.63em;
-}
-
 .main {
   font-style: normal;
   font-weight: 900;
@@ -321,11 +321,7 @@ ul {
 .type-pr {
   padding: 20px 24px 30px;
 }
-/* .list h2 {
-  margin: 0px;
-  margin-left: 24px;
-  margin-right: 24px;
-} */
+
 .list img {
   margin: 0px;
 }
@@ -376,14 +372,7 @@ footer {
   background-color: #2f303a;
   justify-content: center;
 }
-.our-teams {
-  background-color: #f5f4fa;
-  text-align: center;
-  padding: 0px;
-  padding-bottom: 94px;
-  padding-top: 94px;
-  padding-left: 0px;
-}
+
 .teams {
   display: inline-block;
   background-color: var(--with);
@@ -392,6 +381,14 @@ footer {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.our-teams {
+  background-color: #f5f4fa;
+  text-align: center;
+  padding: 0px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-left: 0px;
 }
 .teams-list {
   padding-left: 0px;
