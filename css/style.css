@@ -317,9 +317,7 @@ ul {
 .list img {
   margin: 0px;
 }
-.list p {
-  margin: 0px;
-}
+
 .address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -327,6 +325,9 @@ ul {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71em;
+}
+.list p {
+  margin: 0px;
 }
 .mail-tel {
   font-family: "Roboto", sans-serif;
