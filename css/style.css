@@ -351,19 +351,12 @@ footer {
   background-color: #f5f4fa;
   text-align: center;
   padding: 0px;
+  padding-bottom: 94px;
   padding-top: 94px;
   padding-left: 0px;
-  padding-bottom: 94px;
 }
-.teams {
-  display: inline-block;
-  background-color: var(--with);
-  margin-right: 26px;
-  padding-bottom: 30px;
-}
-/* .teams img {
-  margin-bottom: 30px;
-} */
+
+
 .teams:last-child {
   margin-right: 0px;
 }
@@ -375,6 +368,11 @@ footer {
   background-color: #2f303a;
   justify-content: center;
 }
+.teams {
+  display: inline-block;
+  background-color: var(--with);
+  margin-right: 26px;
+  padding-bottom: 30px;}
 .teams-list {
   padding-left: 0px;
 }
