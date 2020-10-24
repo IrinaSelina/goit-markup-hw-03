@@ -25,13 +25,13 @@ html {
 }
 header {
   width: 100%;
-  text-align: center;
-}
-.header {
-  display: inline-flex;
-  justify-content: flex-end;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .portfolio-header {
   border-bottom: 1px solid #ececec;
@@ -47,15 +47,12 @@ nav ul,
 .site-nav li,
 .contacts li,
 .images li,
-header,
-.header,
-.contacts,
 .button,
 .button li,
 .v li {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -67,6 +64,9 @@ header,
   width: 145px;
   margin-right: 93px;
 }
+nav a {
+  margin-right: 0px;
+}
 .site-nav li {
   display: inline-block;
   padding-right: 50px;
@@ -75,7 +75,10 @@ header,
   padding-right: 0px;
 }
 .contacts li {
-  padding-right: 50px;
+  margin-right: 50px;
+}
+.contacts li:last-child {
+  margin-right: 0px;
 }
 .contacts-mail-tel:last-child {
   padding-right: 0px;
@@ -86,11 +89,14 @@ header,
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
+  text-align: right;
+  padding: 0px;
+  margin-left: auto;
 }
 
-.contacts li:last-child {
+/* .contacts li:last-child {
   padding-right: 0px;
-}
+} */
 .primery-nav {
   color: var(--accent-text-color);
   font-style: normal;
@@ -119,7 +125,7 @@ main {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63em;
-  margin-top: 0px;
+  margin: 0px;
 }
 .button-secondary {
   color: var(--primary-text-color);
@@ -169,6 +175,7 @@ main {
   padding-top: 10px;
 }
 .about-us {
+  display: block;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -263,6 +270,7 @@ ul {
   font-size: 36px;
   line-height: 1.17em;
   text-align: center;
+  margin: 0px;
   margin-bottom: 50px;
 }
 
@@ -271,6 +279,8 @@ ul {
   background-color: var(--fon-cl);
   width: 100%;
   height: 252px;
+  padding-bottom: 51px;
+  padding-top: 60px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -297,17 +307,19 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin: 0px;
+  padding-bottom: 64px;
 }
 .type-pr-list li {
-  margin-right: 30px;
-
+  margin-right: 26px;
+  border: 1px solid #eeeeee;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 .type-pr-list li:nth-last-child(3n + 1) {
   margin-right: 0px;
 }
 .type-pr {
-  padding: 20px 24px 50px;
+  padding: 20px 24px 30px;
 }
 /* .list h2 {
   margin: 0px;
@@ -325,17 +337,20 @@ ul {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71em;
+  margin-bottom: 9px;
 }
 .list p {
   margin: 0px;
 }
 .mail-tel {
+  display: block;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #ffffff99;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71em;
+  margin-bottom: 9px;
 }
 
 address ul {
@@ -346,15 +361,10 @@ footer {
   display: inline-flex;
   align-items: center;
 }
-.our-teams {
-  background-color: #f5f4fa;
-  text-align: center;
-  padding: 0px;
-  padding-bottom: 94px;
-  padding-top: 94px;
-  padding-left: 0px;
+.adresss-footer {
+  margin: 0px;
+  margin-top: 20px;
 }
-
 .teams:last-child {
   margin-right: 0px;
 }
@@ -366,11 +376,22 @@ footer {
   background-color: #2f303a;
   justify-content: center;
 }
+.our-teams {
+  background-color: #f5f4fa;
+  text-align: center;
+  padding: 0px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-left: 0px;
+}
 .teams {
   display: inline-block;
   background-color: var(--with);
   margin-right: 26px;
   padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .teams-list {
   padding-left: 0px;
@@ -384,7 +405,7 @@ footer {
   padding-top: 30px;
 }
 .images-list {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
 }
 
