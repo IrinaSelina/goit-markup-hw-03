@@ -325,7 +325,7 @@ ul {
 }
 .type-pr-list li {
   display: block;
-  margin-left: 26px;
+  margin-left: 30px;
 
   flex-basis: calc(100% / 3 - 30px);
   margin-bottom: 30px;
