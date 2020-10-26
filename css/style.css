@@ -170,7 +170,8 @@ button{
 }
 .row-button:hover,
 .row-button:focus {
-  font-weight: 900;
+  color: var(--with);
+  background-color: var(--accent-text-color);
 }
 .main {
   font-style: normal;
@@ -268,19 +269,22 @@ a:hover,
  a:focus{
   color: var(--accent-text-color);
   font-weight: 900;
-
 }
+.container .button-primery-st:hover,
+.container .button-primery-st:focus{
+  color: var(--accent-text-color);
+  background-color: var(--with);
 }
-.button-primery-st:focus,
+}/* .button-primery-st:focus,
 .button-primery-st:hover {
   color: #ffffff;
   font-weight: 900;
-}
-.button-primery:focus,
+} */
+/* .button-primery:focus,
 .button-primery:hover {
   color: #ffffff;
   font-weight: 900;
-}
+} */
 
 ul {
   list-style: none;
