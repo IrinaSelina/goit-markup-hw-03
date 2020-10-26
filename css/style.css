@@ -27,6 +27,7 @@ header {
   width: 100%;
   padding-top: 24px;
   padding-bottom: 25px;
+
 }
 .header {
   display: flex;
@@ -38,6 +39,15 @@ header {
 }
 a {
   text-decoration: none;
+}
+li{
+  padding: 0px;
+  margin: 0px;
+   list-style: none;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
 }
 nav,
 nav a,
@@ -61,7 +71,9 @@ nav ul,
   line-height: 1.17em;
   width: 145px;
   margin-right: 93px;
+  
 }
+
 nav a {
   margin-right: 0px;
 }
@@ -126,7 +138,9 @@ main {
   padding: 0px;
   margin-bottom: 34px;
 }
-
+.contacts-mail-tel{
+  color: var(--primary-text-color);
+}
 .button-secondary {
   color: var(--primary-text-color);
 }
@@ -135,6 +149,7 @@ main {
 }
 button{
   display: inline-block;
+  cursor: pointer;
 }
 
 .button-primery-pf {
@@ -270,9 +285,7 @@ a:hover,
   color: var(--accent-text-color);
   font-weight: 900;
 }
-li{
-  list-style-type: none;
-}
+
 .container .button-primery-st:hover,
 .container .button-primery-st:focus{
   color: var(--accent-text-color);
