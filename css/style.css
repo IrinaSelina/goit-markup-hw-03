@@ -116,6 +116,8 @@ main {
   color: var(--titel-text-color);
 }
 .button {
+  display: inline-flex;
+  justify-content: center;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -130,6 +132,9 @@ main {
 }
 .button button {
   padding: 6px 22px;
+}
+button{
+  display: inline-block;
 }
 
 .button-primery-pf {
@@ -162,6 +167,10 @@ main {
   border: 0px;
   border-radius: 4px;
   margin-right: 8px;
+}
+.row-button:hover,
+.row-button:focus {
+  font-weight: 900;
 }
 .main {
   font-style: normal;
@@ -255,13 +264,12 @@ main {
   margin: 0px;
   margin-bottom: 10px;
 }
-a:hover {
+a:hover,
+ a:focus{
   color: var(--accent-text-color);
-  font-weight: 700;
+  font-weight: 900;
+
 }
-a:focus {
-  color: var(--accent-text-color);
-  font-weight: 700;
 }
 .button-primery-st:focus,
 .button-primery-st:hover {
@@ -271,7 +279,7 @@ a:focus {
 .button-primery:focus,
 .button-primery:hover {
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 ul {
@@ -318,10 +326,12 @@ ul {
   display: none;
 }
 .type-pr-list {
+  
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
   margin: 0px;
+
 }
 .type-pr-list li {
   display: block;
@@ -337,21 +347,24 @@ ul {
 .type-pr-list li:nth-child(3n + 1) {
   margin-left: 0px;
 }
-/* .type-pr-list li:nth-last-child(3n + 1) {
-  margin-right: 0px;
-} */
+
 .type-pr {
   padding: 20px 24px;
   text-align: left;
   border: 1px solid #eeeeee;
   border-top: 0px;
+  margin: 0px;
 }
 .type-pr h2 {
   margin: 0px;
   margin-bottom: 4px;
 }
+.type-pr-list .list{
+  margin: 0px;
+}
 
 .list img {
+  display: block;
   margin: 0px;
 }
 
