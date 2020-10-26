@@ -270,6 +270,9 @@ a:hover,
   color: var(--accent-text-color);
   font-weight: 900;
 }
+li{
+  list-style-type: none;
+}
 .container .button-primery-st:hover,
 .container .button-primery-st:focus{
   color: var(--accent-text-color);
